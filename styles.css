@@ -77,8 +77,8 @@ h3{font-size:17px;margin:0;line-height:1.3}
 
 /* Línea de tiempo */
 .tl{list-style:none;margin:0;padding:0}
-.stop{display:grid;grid-template-columns:58px minmax(0,1fr);gap:12px;position:relative;padding-bottom:20px}
-.stop::before{content:"";position:absolute;left:28px;top:26px;bottom:0;width:1px;background:var(--line)}
+.stop{display:grid;grid-template-columns:62px minmax(0,1fr);gap:12px;position:relative;padding-bottom:20px}
+.stop::before{content:"";position:absolute;left:30px;top:26px;bottom:0;width:1px;background:var(--line)}
 .stop:last-child::before{display:none}
 .time{font:500 13px var(--f-mono);color:var(--sea);padding-top:3px;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
 .stop.meal .time{color:var(--sunset)}
