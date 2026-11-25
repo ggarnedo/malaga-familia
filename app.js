@@ -132,17 +132,7 @@ const nombre = id => (personas().find(p => p.id === id) || {}).nombre || 'Alguie
 
 /* ── Cabecera ───────────────────────────────────────────────────────────── */
 function renderHeader(){
-  const v = S.viaje;
-  const cd = document.getElementById('countdown');
-  if (v){
-    const today = new Date(hoyISO() + 'T00:00:00');
-    const ini = new Date(v.inicio + 'T00:00:00'), fin = new Date(v.fin + 'T00:00:00');
-    const dias = Math.round((ini - today) / 864e5);
-    if (dias > 1) cd.textContent = 'Faltan ' + dias + ' días · Pedregalejo';
-    else if (dias === 1) cd.textContent = 'Nos vamos mañana';
-    else if (today <= fin) cd.textContent = 'Día ' + (Math.round((today - ini) / 864e5) + 1) + ' de 6 · Pedregalejo';
-    else cd.textContent = 'Feliz 2027';
-  }
+  document.getElementById('countdown').textContent = '28 dic 2026 – 2 ene 2027 · Pedregalejo';
   const who = document.getElementById('who');
   who.replaceChildren();
   if (!BACKEND) return;
@@ -153,6 +143,37 @@ function renderHeader(){
   } else {
     who.append(h('button', { class: 'who-btn out', type: 'button', onclick: () => abrirEntrada(S.clave ? 2 : 1) }, 'Entrar'));
   }
+}
+
+/* ── Cuenta atrás ───────────────────────────────────────────────────────── */
+const SALIDA = new Date('2026-12-28T00:00:00+01:00');
+const FIN = new Date('2027-01-03T00:00:00+01:00');
+function cuentaAtras(){
+  const box = document.getElementById('cd');
+  const ahora = new Date();
+  if (ahora >= FIN){ box.hidden = true; return; }
+  if (ahora >= SALIDA){
+    const n = Math.floor((ahora - SALIDA) / 864e5) + 1;
+    if (box.dataset.modo !== 'live' + n){
+      box.dataset.modo = 'live' + n;
+      box.replaceChildren(h('div', { class: 'cd-box live' },
+        h('div', null, h('div', { class: 'cd-label' }, 'Ya estamos en Málaga'), h('div', { class: 'cd-sub' }, 'Día ' + n + ' de 6 del viaje'))));
+    }
+    return;
+  }
+  let t = Math.floor((SALIDA - ahora) / 1000);
+  const d = Math.floor(t / 86400); t -= d * 86400;
+  const hh = Math.floor(t / 3600); t -= hh * 3600;
+  const mm = Math.floor(t / 60); const ss = t - mm * 60;
+  if (box.dataset.modo !== 'cuenta'){
+    box.dataset.modo = 'cuenta';
+    const u = (id, label, cls) => h('div', { class: 'cd-u' + (cls ? ' ' + cls : '') }, h('b', { id }), h('span', null, label));
+    box.replaceChildren(h('div', { class: 'cd-box', role: 'timer', 'aria-label': 'Cuenta atrás hasta el viaje' },
+      h('div', null, h('div', { class: 'cd-label' }, 'Cuenta atrás'), h('div', { class: 'cd-sub' }, 'Hasta el lunes 28 de diciembre')),
+      h('div', { class: 'cd-units' }, u('cd-d', d === 1 ? 'día' : 'días', 'cd-days'), u('cd-h', 'horas'), u('cd-m', 'min'), u('cd-s', 'seg'))));
+  }
+  const set = (id, v) => { const el = document.getElementById(id); if (el) el.textContent = v; };
+  set('cd-d', d); set('cd-h', String(hh).padStart(2, '0')); set('cd-m', String(mm).padStart(2, '0')); set('cd-s', String(ss).padStart(2, '0'));
 }
 
 function renderBanner(){
@@ -582,6 +603,7 @@ async function init(){
     return;
   }
   window.addEventListener('hashchange', route);
+  cuentaAtras(); setInterval(cuentaAtras, 1000);
   route();
   if (BACKEND && S.clave) sync();
   document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') sync({ quiet: true }); });
