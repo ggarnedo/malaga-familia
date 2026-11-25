@@ -1,5 +1,5 @@
 // Funciona sin conexión: guarda la app y el último plan descargado.
-const VERSION = 'malaga-v4';
+const VERSION = 'malaga-v5';
 const SHELL = ['./', 'index.html', 'styles.css', 'app.js', 'config.js', 'manifest.webmanifest', 'data/viaje.json',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
 
@@ -14,7 +14,7 @@ self.addEventListener('fetch', e => {
   if (e.request.method !== 'GET' || url.origin !== location.origin) return; // la base de datos va siempre por red
   // Primero la red (para ver siempre el plan al día) y, sin conexión, la copia guardada.
   e.respondWith(
-    fetch(e.request).then(r => {
+    (e.request.mode === 'navigate' ? fetch(e.request) : fetch(e.request.url, { cache: 'no-cache' })).then(r => {
       if (r.ok) { const copy = r.clone(); caches.open(VERSION).then(c => c.put(e.request, copy)); }
       return r;
     }).catch(() => caches.match(e.request, { ignoreSearch: true }).then(m => m || caches.match('index.html')))
