@@ -1,6 +1,6 @@
 -- Málaga en familia · base de datos compartida (Supabase)
 -- Pega este archivo entero en Supabase > SQL Editor y pulsa Run.
--- ANTES de ejecutarlo, cambia la clave familiar en la línea marcada con >>>.
+-- Antes de pulsar Run, cambia la clave familiar en la ÚLTIMA línea del archivo.
 --
 -- Seguridad: las tablas no se pueden leer ni escribir directamente desde la web.
 -- Todo pasa por funciones que comprueban la clave familiar.
@@ -53,12 +53,7 @@ alter table public.tareas   enable row level security;
 alter table public.gastos   enable row level security;
 revoke all on public.ajustes, public.personas, public.votos, public.tareas, public.gastos from anon, authenticated;
 
--- ── Clave familiar ────────────────────────────────────────────────────────
--- >>> Cambia 'CAMBIA-ESTA-CLAVE' por la clave que repartirás a la familia.
-insert into public.ajustes (id, clave_hash)
-values (1, extensions.crypt('CAMBIA-ESTA-CLAVE', extensions.gen_salt('bf')))
-on conflict (id) do update set clave_hash = excluded.clave_hash;
-
+-- ── Comprobación de la clave familiar ───────────────────────────────────
 create or replace function public._exigir_clave(p_clave text) returns void
 language plpgsql security definer set search_path = public, extensions as $$
 begin
@@ -184,3 +179,8 @@ select t, d from (values
   ('Cotillón, uvas y cava para Nochevieja', 'Jue 31')
 ) as v(t, d)
 where not exists (select 1 from public.tareas);
+
+-- ══════════════════════════════════════════════════════════════════════════
+-- CLAVE FAMILIAR: cambia  CAMBIA-ESTA-CLAVE  por la vuestra (deja las comillas)
+-- ══════════════════════════════════════════════════════════════════════════
+insert into public.ajustes (id, clave_hash) values (1, extensions.crypt('CAMBIA-ESTA-CLAVE', extensions.gen_salt('bf'))) on conflict (id) do update set clave_hash = excluded.clave_hash;
