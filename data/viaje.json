@@ -1,0 +1,917 @@
+{
+ "titulo": "Málaga en familia",
+ "inicio": "2026-12-28",
+ "fin": "2027-01-02",
+ "grupo": "15 personas: 7 adultos, 5 adolescentes y 3 niños",
+ "dias": [
+  {
+   "id": "dia-28",
+   "wd": "Lun",
+   "dn": "28",
+   "mo": "dic",
+   "title": "Llegada sin prisas",
+   "theme": "Viajamos en tres coches y la hora de llegada está abierta. El día se adapta: si llegáis a tiempo, comida frente al mar; si no, cena tranquila y a descansar.",
+   "alert": "Lunes: Carmen Thyssen y Museo de Málaga cierran. Lo dejamos para otros días.",
+   "stops": [
+    {
+     "t": "Variable",
+     "h": "Llegada e instalación en la casa",
+     "p": "Reparto de habitaciones y compra básica para los desayunos de toda la semana. Coordinad la compra con uno de los coches para no ir los tres al súper.",
+     "id": "dia-28-llegada-e-instalacion-en-la-casa",
+     "meal": false
+    },
+    {
+     "t": "Plan A",
+     "meal": true,
+     "h": "Si llegáis antes de las 14:30: comida en El Cabra",
+     "p": "Uno de los merenderos más antiguos de Pedregalejo. Arroces, marisco y espetos de dorada y gambón. Avisad al restaurante si vais con retraso.",
+     "price": "≈ 35 € por adulto sin bebida",
+     "map": "Restaurante El Cabra Pedregalejo",
+     "chips": [
+      {
+       "k": "res",
+       "t": "Reservar grupo"
+      },
+      {
+       "k": "easy",
+       "t": "Acceso en coche a la puerta"
+      }
+     ],
+     "id": "dia-28-si-llegais-antes-de-las-14-30-comida-en-"
+    },
+    {
+     "t": "Plan B",
+     "meal": true,
+     "h": "Si llegáis más tarde: comer en ruta",
+     "p": "Parada en el camino y, ya en Pedregalejo, merienda o tapas en cualquier bar del paseo.",
+     "id": "dia-28-si-llegais-mas-tarde-comer-en-ruta"
+    },
+    {
+     "t": "18:00",
+     "h": "Paseo corto por Pedregalejo",
+     "p": "Barcas en la arena, casitas bajas y la estatua del espetero. Tramo llano, con terrazas para parar.",
+     "map": "Paseo Marítimo Pedregalejo Málaga",
+     "chips": [
+      {
+       "k": "free",
+       "t": "Gratis"
+      },
+      {
+       "k": "easy",
+       "t": "Llano"
+      }
+     ],
+     "id": "dia-28-paseo-corto-por-pedregalejo",
+     "meal": false
+    },
+    {
+     "t": "21:00",
+     "h": "Cena en casa",
+     "p": "Primera noche familiar, sin coche.",
+     "id": "dia-28-cena-en-casa",
+     "meal": false
+    }
+   ],
+   "nye": false
+  },
+  {
+   "id": "dia-29",
+   "wd": "Mar",
+   "dn": "29",
+   "mo": "dic",
+   "title": "La Málaga monumental",
+   "theme": "Mañana desde las 11:00 en la manzana más bonita de Málaga: Alcazaba, Teatro Romano y Catedral están a pocos minutos a pie entre sí y de El Pimpi. Por la tarde, Picasso para quien quiera y luces del Botánico.",
+   "alert": "Martes: el Centre Pompidou cierra. El resto está abierto.",
+   "stops": [
+    {
+     "t": "10:30",
+     "h": "Salida de casa",
+     "p": "Dos coches y un taxi. Parking de la Alcazaba (bajo la calle Alcazabilla), justo al lado de todo lo de la mañana y de El Pimpi: se deja el coche y no se vuelve a mover hasta la tarde.",
+     "map": "Parking Alcazaba Málaga",
+     "chips": [
+      {
+       "k": "car",
+       "t": "Un solo parking para todo el día"
+      }
+     ],
+     "id": "dia-29-salida-de-casa",
+     "meal": false
+    },
+    {
+     "t": "11:00",
+     "h": "Alcazaba",
+     "p": "Fortaleza-palacio musulmán con patios, fuentes, jardines y vistas al puerto. A los niños les encanta. Unos 90 minutos a ritmo tranquilo. Hay ascensor desde la calle Guillén Sotelo, detrás del Ayuntamiento, para ahorrarse la subida.",
+     "price": "7 € adulto · 3 € mayores de 65 de la UE · gratis menores de 6. Con 15 personas, pedid tarifa de grupo: 5 € por persona",
+     "map": "Alcazaba de Málaga",
+     "chips": [
+      {
+       "k": "hill",
+       "t": "Cuestas · ascensor opcional"
+      }
+     ],
+     "id": "dia-29-alcazaba",
+     "meal": false
+    },
+    {
+     "t": "12:30",
+     "h": "Teatro Romano",
+     "p": "Justo al pie de la Alcazaba. Se ve entero desde la calle Alcazabilla, peatonal y llana.",
+     "map": "Teatro Romano de Málaga",
+     "chips": [
+      {
+       "k": "free",
+       "t": "Gratis"
+      },
+      {
+       "k": "easy",
+       "t": "Llano"
+      }
+     ],
+     "id": "dia-29-teatro-romano",
+     "meal": false
+    },
+    {
+     "t": "12:50",
+     "h": "Catedral (La Manquita)",
+     "p": "A 5 minutos a pie. Visita con audioguía de unos 50 minutos: interior llano y con bancos. La subida a las cubiertas son 200 escalones en una escalera de caracol estrecha, así que mejor no esta vez.",
+     "price": "10 € con audioguía · 9 € mayores · gratis menores de 13 (sin audioguía)",
+     "map": "Catedral de Málaga",
+     "chips": [
+      {
+       "k": "easy",
+       "t": "Llano"
+      }
+     ],
+     "id": "dia-29-catedral-la-manquita",
+     "meal": false
+    },
+    {
+     "t": "14:00",
+     "meal": true,
+     "h": "Comida: El Pimpi",
+     "p": "Bodega malagueña con barricas firmadas, patios y cocina andaluza. A 3 minutos de la Catedral.",
+     "price": "≈ 30 € por adulto sin bebida",
+     "map": "El Pimpi Málaga",
+     "chips": [
+      {
+       "k": "free",
+       "t": "Reserva confirmada · 15 personas"
+      }
+     ],
+     "id": "dia-29-comida-el-pimpi"
+    },
+    {
+     "t": "16:15",
+     "h": "Museo Picasso o paseo por el centro",
+     "p": "Picasso está pegado a El Pimpi y abre hasta las 19:00; la visita lleva entre 1 y 2 horas. Quien prefiera, paseo por calle Granada y calle Larios.",
+     "price": "Picasso: 9,50 € · reducida para menores de 17",
+     "map": "Museo Picasso Málaga",
+     "chips": [
+      {
+       "k": "res",
+       "t": "Entradas online"
+      },
+      {
+       "k": "easy",
+       "t": "Interior, sin esfuerzo"
+      }
+     ],
+     "id": "dia-29-museo-picasso-o-paseo-por-el-centro",
+     "meal": false
+    },
+    {
+     "t": "18:00",
+     "h": "Vuelta a casa y descanso",
+     "p": "Merienda y recargar pilas.",
+     "id": "dia-29-vuelta-a-casa-y-descanso",
+     "meal": false
+    },
+    {
+     "t": "19:30",
+     "h": "Luces del Jardín Botánico La Concepción",
+     "p": "Recorrido nocturno de luces y música de unos 2 km por el jardín, a paso tranquilo y con paradas. De noche refresca y hay humedad: id bien abrigados. Unos 20 minutos en coche desde casa. Entradas por franja de 15 minutos en lucesdelaconcepcion.es (temática 2026 por confirmar).",
+     "map": "Jardín Botánico Histórico La Concepción Málaga",
+     "chips": [
+      {
+       "k": "res",
+       "t": "Comprar con antelación"
+      },
+      {
+       "k": "kids",
+       "t": "Plan estrella para niños"
+      },
+      {
+       "k": "hill",
+       "t": "2 km a paso tranquilo"
+      }
+     ],
+     "id": "dia-29-luces-del-jardin-botanico-la-concepcion",
+     "meal": false
+    },
+    {
+     "t": "21:30",
+     "h": "Cena en casa",
+     "p": "",
+     "id": "dia-29-cena-en-casa",
+     "meal": false
+    }
+   ],
+   "nye": false
+  },
+  {
+   "id": "dia-30",
+   "wd": "Mié",
+   "dn": "30",
+   "mo": "dic",
+   "title": "Coches clásicos, Picasso niño y tarde en el centro",
+   "theme": "Día en la ciudad y sin carretera: museo por la mañana, comida junto a la Catedral y tarde de ambiente navideño por el centro.",
+   "stops": [
+    {
+     "t": "11:00",
+     "h": "Museo Automovilístico y de la Moda",
+     "p": "En el edificio de La Tabacalera: coches clásicos y de lujo junto a alta costura de cada época. Todo en interior y llano, con sitio para sentarse. Gusta a niños y mayores. Unos 15 minutos en coche o taxi desde casa. Visita de hora y media aproximadamente. El 30 abre de 10:00 a 14:30 y de 16:00 a 19:00.",
+     "price": "Desde 7 € · reducida para niños de 6 a 15 y familias numerosas · gratis menores de 5",
+     "map": "Museo Automovilístico y de la Moda Málaga",
+     "chips": [
+      {
+       "k": "kids",
+       "t": "A los peques les encanta"
+      },
+      {
+       "k": "easy",
+       "t": "Interior, llano"
+      }
+     ],
+     "id": "dia-30-museo-automovilistico-y-de-la-moda",
+     "meal": false
+    },
+    {
+     "t": "12:45",
+     "h": "Plaza de la Merced y Casa Natal de Picasso",
+     "p": "La plaza donde nació el pintor, con su estatua sentada en un banco: foto familiar obligada. La casa natal es pequeña y se ve en 30–40 minutos.",
+     "map": "Casa Natal Picasso Plaza de la Merced Málaga",
+     "chips": [
+      {
+       "k": "easy",
+       "t": "Llano"
+      },
+      {
+       "k": "car",
+       "t": "Bajada en la plaza"
+      }
+     ],
+     "id": "dia-30-plaza-de-la-merced-y-casa-natal-de-picas",
+     "meal": false
+    },
+    {
+     "t": "14:30",
+     "meal": true,
+     "h": "Comida: Los Patios de Beatas",
+     "p": "A 3 minutos a pie de la Plaza de la Merced. Cocina andaluza con una bodega muy cuidada, en una casa con patios y salones privados: ideal para comer los 15 juntos. Precio y disponibilidad para grupo por confirmar al reservar.",
+     "map": "Los Patios de Beatas Calle Beatas 43 Málaga",
+     "chips": [
+      {
+       "k": "res",
+       "t": "Solicitud enviada · pendiente de confirmar"
+      },
+      {
+       "k": "easy",
+       "t": "Llano"
+      }
+     ],
+     "id": "dia-30-comida-los-patios-de-beatas"
+    },
+    {
+     "t": "16:30",
+     "h": "Paseo por el centro",
+     "p": "Plaza del Obispo frente a la fachada de la Catedral, calle Granada y calle Larios con el ambiente navideño. Si está montado, el mercadillo de Navidad del Paseo del Parque queda al lado.",
+     "map": "Plaza del Obispo Málaga",
+     "chips": [
+      {
+       "k": "free",
+       "t": "Gratis"
+      },
+      {
+       "k": "easy",
+       "t": "Llano"
+      }
+     ],
+     "id": "dia-30-paseo-por-el-centro",
+     "meal": false
+    },
+    {
+     "t": "18:30",
+     "h": "Primer pase de luces en calle Larios",
+     "p": "El primero suele tener menos gente que los de las 20:30 y 22:00.",
+     "map": "Calle Larios Málaga",
+     "chips": [
+      {
+       "k": "free",
+       "t": "Gratis"
+      },
+      {
+       "k": "kids",
+       "t": "A los peques les encanta"
+      }
+     ],
+     "id": "dia-30-primer-pase-de-luces-en-calle-larios",
+     "meal": false
+    },
+    {
+     "t": "19:30",
+     "h": "Vuelta a Pedregalejo",
+     "p": "",
+     "id": "dia-30-vuelta-a-pedregalejo",
+     "meal": false
+    },
+    {
+     "t": "21:30",
+     "meal": true,
+     "h": "Cena: Las Palmeras o en casa",
+     "p": "Si quedan fuerzas, cena frente al mar. Merendero de toda la vida con buena bodega, frituras finas y barca de espetos. Si no, cena tranquila en casa.",
+     "price": "≈ 35 € por adulto sin bebida",
+     "map": "Restaurante Las Palmeras Pedregalejo",
+     "tel": "952 29 73 79",
+     "chips": [
+      {
+       "k": "res",
+       "t": "Reservar si se confirma"
+      }
+     ],
+     "id": "dia-30-cena-las-palmeras-o-en-casa"
+    }
+   ],
+   "nye": false
+  },
+  {
+   "id": "dia-31",
+   "wd": "Jue",
+   "dn": "31",
+   "mo": "dic",
+   "nye": true,
+   "title": "Nochevieja",
+   "theme": "Mañana tranquila de museo y tapeo en el mercado; tarde en casa y gran cena de Nochevieja sin que nadie cocine.",
+   "alert": "Día 31: la Alcazaba cierra y los museos abren solo por la mañana (hasta las 15:00). Esa noche nadie conduce: taxis si alguien baja al centro.",
+   "stops": [
+    {
+     "t": "11:00",
+     "h": "Museo Carmen Thyssen",
+     "p": "Pintura española y andaluza del siglo XIX: Sorolla, Zurbarán, Fortuny. Pequeño, llano y muy agradable. El 31 abre hasta las 15:00. Menores de 18, gratis.",
+     "map": "Museo Carmen Thyssen Málaga",
+     "chips": [
+      {
+       "k": "kids",
+       "t": "Visita de 1 hora"
+      },
+      {
+       "k": "easy",
+       "t": "Interior, sin esfuerzo"
+      }
+     ],
+     "id": "dia-31-museo-carmen-thyssen",
+     "meal": false
+    },
+    {
+     "t": "12:30",
+     "h": "Mercado de Atarazanas",
+     "p": "Mercado central con vidriera histórica, a 5 minutos del Thyssen. Paseo entre puestos de pescado, fruta y especias.",
+     "map": "Mercado Central de Atarazanas Málaga",
+     "chips": [
+      {
+       "k": "easy",
+       "t": "Llano"
+      }
+     ],
+     "id": "dia-31-mercado-de-atarazanas",
+     "meal": false
+    },
+    {
+     "t": "13:30",
+     "meal": true,
+     "h": "Comida ligera en Atarazanas",
+     "p": "Tapeo en las barras del mercado para no llegar llenos a la cena.",
+     "price": "≈ 15–25 € por adulto",
+     "id": "dia-31-comida-ligera-en-atarazanas"
+    },
+    {
+     "t": "16:00",
+     "h": "Casa: siesta y preparativos",
+     "p": "Mesa, cotillón y música. La cena la prepara un chef o un catering: nadie cocina.",
+     "id": "dia-31-casa-siesta-y-preparativos",
+     "meal": false
+    },
+    {
+     "t": "21:30",
+     "meal": true,
+     "h": "Cena de Nochevieja en casa",
+     "p": "Con chef a domicilio o catering, por decidir. Las opciones y sus precios están en la sección Nochevieja: votad la que prefiráis.",
+     "chips": [
+      {
+       "k": "res",
+       "t": "Por decidir"
+      }
+     ],
+     "id": "dia-31-cena-de-nochevieja-en-casa"
+    },
+    {
+     "t": "00:00",
+     "h": "Uvas y brindis",
+     "p": "Después, quien quiera baja al centro en taxi: Plaza de la Constitución y Muelle Uno.",
+     "id": "dia-31-uvas-y-brindis",
+     "meal": false
+    }
+   ]
+  },
+  {
+   "id": "dia-1",
+   "wd": "Vie",
+   "dn": "1",
+   "mo": "ene",
+   "title": "Año Nuevo junto al mar",
+   "theme": "Día lento. Casi todo cerrado, así que tocan paseo corto, comida larga y vistas.",
+   "alert": "1 de enero: cierran Alcazaba, Picasso, Thyssen y Museo de Málaga.",
+   "stops": [
+    {
+     "t": "11:00",
+     "h": "Desayuno tardío en casa",
+     "p": "",
+     "id": "dia-1-desayuno-tardio-en-casa",
+     "meal": false
+    },
+    {
+     "t": "13:00",
+     "h": "Paseo Pedregalejo – El Palo",
+     "p": "Por el paseo marítimo, llano y junto al mar. Quien prefiera, va en coche directo al restaurante.",
+     "map": "Paseo Marítimo El Palo Málaga",
+     "chips": [
+      {
+       "k": "free",
+       "t": "Gratis"
+      },
+      {
+       "k": "easy",
+       "t": "Llano"
+      }
+     ],
+     "id": "dia-1-paseo-pedregalejo-el-palo",
+     "meal": false
+    },
+    {
+     "t": "14:30",
+     "meal": true,
+     "h": "Comida: El Tintero (El Palo)",
+     "p": "Toda una experiencia: los camareros pasean los platos voceando y cada uno se queda lo que le apetece; al final cuentan los platos. Divertidísimo para los niños. Confirmad que abre ese día.",
+     "price": "Se paga por plato · ≈ 25–35 € por adulto",
+     "map": "Restaurante El Tintero El Palo Málaga",
+     "tel": "952 20 68 26",
+     "chips": [
+      {
+       "k": "res",
+       "t": "Llamar antes"
+      },
+      {
+       "k": "kids",
+       "t": "Diversión garantizada"
+      }
+     ],
+     "id": "dia-1-comida-el-tintero-el-palo"
+    },
+    {
+     "t": "17:30",
+     "h": "Mirador de Gibralfaro",
+     "p": "La mejor vista de Málaga al atardecer: puerto, Alcazaba y plaza de toros. Se sube en coche hasta el aparcamiento del mirador, sin caminar.",
+     "map": "Mirador de Gibralfaro Málaga",
+     "chips": [
+      {
+       "k": "free",
+       "t": "Gratis"
+      },
+      {
+       "k": "car",
+       "t": "En coche hasta arriba"
+      }
+     ],
+     "id": "dia-1-mirador-de-gibralfaro",
+     "meal": false
+    },
+    {
+     "t": "19:30",
+     "h": "Luces de calle Larios",
+     "p": "Pase de las 20:30. Se llena mucho: mejor colocarse en un extremo de la calle o en la Plaza de la Constitución, sin meterse en el gentío. Chocolate con churros para cerrar.",
+     "map": "Calle Larios Málaga",
+     "chips": [
+      {
+       "k": "free",
+       "t": "Gratis"
+      },
+      {
+       "k": "hill",
+       "t": "Aglomeración"
+      }
+     ],
+     "id": "dia-1-luces-de-calle-larios",
+     "meal": false
+    }
+   ],
+   "nye": false
+  },
+  {
+   "id": "dia-2",
+   "wd": "Sáb",
+   "dn": "2",
+   "mo": "ene",
+   "title": "Museo de Málaga, puerto y despedida",
+   "theme": "Última mañana cultural y comida de despedida antes de coger los coches.",
+   "stops": [
+    {
+     "t": "10:00",
+     "h": "Museo de Málaga (Palacio de la Aduana)",
+     "p": "Bellas artes y arqueología en un palacio neoclásico. Entrada gratuita para ciudadanos de la UE. Interior y accesible.",
+     "map": "Museo de Málaga Palacio de la Aduana",
+     "chips": [
+      {
+       "k": "free",
+       "t": "Gratis (UE)"
+      },
+      {
+       "k": "easy",
+       "t": "Interior, sin esfuerzo"
+      }
+     ],
+     "id": "dia-2-museo-de-malaga-palacio-de-la-aduana",
+     "meal": false
+    },
+    {
+     "t": "11:45",
+     "h": "Muelle Uno y Centre Pompidou",
+     "p": "Paseo llano por el puerto hasta el cubo de colores del Pompidou.",
+     "map": "Centre Pompidou Málaga",
+     "chips": [
+      {
+       "k": "easy",
+       "t": "Llano"
+      }
+     ],
+     "id": "dia-2-muelle-uno-y-centre-pompidou",
+     "meal": false
+    },
+    {
+     "t": "14:00",
+     "meal": true,
+     "h": "Comida de despedida: Miguelito el Cariñoso o El Caleño",
+     "p": "De vuelta en Pedregalejo, frente al mar. Paella de marisco y fritura para cerrar el viaje.",
+     "price": "≈ 25–35 € por adulto sin bebida",
+     "map": "Miguelito el Cariñoso Pedregalejo",
+     "tel": "952 29 94 43",
+     "chips": [
+      {
+       "k": "res",
+       "t": "Reservar grupo"
+      }
+     ],
+     "id": "dia-2-comida-de-despedida-miguelito-el-carinos"
+    },
+    {
+     "t": "Tarde",
+     "h": "Vuelta a casa",
+     "p": "Buen viaje y feliz 2027.",
+     "id": "dia-2-vuelta-a-casa",
+     "meal": false
+    }
+   ],
+   "nye": false
+  }
+ ],
+ "comer": [
+  {
+   "grupo": "Pedregalejo, frente al mar",
+   "sitios": [
+    {
+     "id": "r-el-cabra",
+     "nombre": "El Cabra",
+     "zona": "Pedregalejo",
+     "precio": "≈ 35 €",
+     "desc": "Uno de los más antiguos y afamados del paseo. Arroces, marisco y espetos.",
+     "mapa": "Restaurante El Cabra Pedregalejo"
+    },
+    {
+     "id": "r-las-palmeras",
+     "nombre": "Las Palmeras",
+     "zona": "Pedregalejo",
+     "precio": "≈ 35 €",
+     "desc": "Merendero tradicional con bodega seria y barca de espetos. Salmonetes fritos y coquinas.",
+     "mapa": "Restaurante Las Palmeras Pedregalejo",
+     "tel": "952 29 73 79"
+    },
+    {
+     "id": "r-miguelito-el-carinoso",
+     "nombre": "Miguelito el Cariñoso",
+     "zona": "Pedregalejo",
+     "precio": "≈ 25–35 €",
+     "desc": "Precio medio. Buenos espetos, fritura y paella.",
+     "mapa": "Miguelito el Cariñoso Pedregalejo",
+     "tel": "952 29 94 43"
+    },
+    {
+     "id": "r-el-caleno",
+     "nombre": "El Caleño",
+     "zona": "Pedregalejo",
+     "precio": "≈ 25–35 €",
+     "desc": "Chiringuito muy recomendado por locales. Paella, pescado y marisco.",
+     "mapa": "El Caleño Pedregalejo"
+    },
+    {
+     "id": "r-espigones",
+     "nombre": "Espigones",
+     "zona": "Pedregalejo",
+     "precio": "≈ 30–40 €",
+     "desc": "Merendero tradicional con un toque más cuidado en decoración y servicio.",
+     "mapa": "Restaurante Espigones Pedregalejo"
+    }
+   ]
+  },
+  {
+   "grupo": "El Palo, a un paseo",
+   "sitios": [
+    {
+     "id": "r-el-tintero",
+     "nombre": "El Tintero",
+     "zona": "El Palo",
+     "precio": "≈ 25–35 €",
+     "desc": "Pescaíto y marisco en subasta: los camareros cantan los platos y cada uno elige. Se paga por plato. Ruidoso, auténtico y genial con niños.",
+     "mapa": "Restaurante El Tintero El Palo Málaga",
+     "tel": "952 20 68 26"
+    }
+   ]
+  },
+  {
+   "grupo": "Centro histórico",
+   "sitios": [
+    {
+     "id": "r-el-pimpi",
+     "nombre": "El Pimpi",
+     "zona": "Centro",
+     "precio": "≈ 30 €",
+     "desc": "Bodega icónica junto al Teatro Romano. Cocina andaluza, vino dulce de Málaga y ambiente.",
+     "mapa": "El Pimpi Málaga",
+     "tel": "952 225 403"
+    },
+    {
+     "id": "r-los-patios-de-beatas",
+     "nombre": "Los Patios de Beatas",
+     "zona": "Centro",
+     "precio": "Por confirmar",
+     "desc": "Cocina andaluza y gran bodega en el casco antiguo, junto al Museo Picasso. Tiene salones privados para grupos.",
+     "mapa": "Los Patios de Beatas Calle Beatas 43 Málaga",
+     "tel": "952 210 350"
+    },
+    {
+     "id": "r-mercado-de-atarazanas",
+     "nombre": "Mercado de Atarazanas",
+     "zona": "Centro",
+     "precio": "≈ 15–25 €",
+     "desc": "Barras de tapas con producto del mercado. Comida rápida e informal.",
+     "mapa": "Mercado Central de Atarazanas Málaga"
+    }
+   ]
+  }
+ ],
+ "reservas": [
+  {
+   "dia": "Mar 29",
+   "hora": "14:00",
+   "que": "Comida en El Pimpi",
+   "estado": "confirmada",
+   "detalle": "15 personas. Calle Granada 62.",
+   "tel": "952 225 403"
+  },
+  {
+   "dia": "Mié 30",
+   "hora": "14:30",
+   "que": "Comida en Los Patios de Beatas",
+   "estado": "pendiente",
+   "detalle": "Solicitud de grupo enviada, pedido salón privado y menú de grupo. Esperando respuesta.",
+   "tel": "952 210 350"
+  },
+  {
+   "dia": "Mié 30",
+   "hora": "21:30",
+   "que": "Cena en Las Palmeras (opcional)",
+   "estado": "porhacer",
+   "detalle": "Solo si apetece cenar fuera.",
+   "tel": "952 29 73 79"
+  },
+  {
+   "dia": "Jue 31",
+   "hora": "21:30",
+   "que": "Cena de Nochevieja",
+   "estado": "porhacer",
+   "detalle": "Elegir entre chef a domicilio y catering. Ver Nochevieja."
+  },
+  {
+   "dia": "Vie 1",
+   "hora": "14:30",
+   "que": "Comida en El Tintero",
+   "estado": "porhacer",
+   "detalle": "Llamar para confirmar que abre el 1 de enero y si coge grupo.",
+   "tel": "952 20 68 26"
+  },
+  {
+   "dia": "Sáb 2",
+   "hora": "14:00",
+   "que": "Comida de despedida (Miguelito el Cariñoso o El Caleño)",
+   "estado": "porhacer",
+   "detalle": "Mesa para 15 frente al mar.",
+   "tel": "952 29 94 43"
+  }
+ ],
+ "entradas": [
+  {
+   "dia": "Mar 29",
+   "que": "Alcazaba",
+   "estado": "porhacer",
+   "detalle": "Franja de las 11:00. Tarifa de grupo (10 o más): 5 € por persona.",
+   "url": "https://alcazabaygibralfaro.janto.es/"
+  },
+  {
+   "dia": "Mar 29",
+   "que": "Catedral",
+   "estado": "porhacer",
+   "detalle": "Hacia las 12:50. Menores de 13 gratis con entrada individual.",
+   "url": "https://shop.articketing.com/monuments/catedral-de-malaga/"
+  },
+  {
+   "dia": "Mar 29",
+   "que": "Luces del Botánico",
+   "estado": "porhacer",
+   "detalle": "Comprar en cuanto abra la venta de 2026; se agotan. Pases desde las 18:30.",
+   "url": "https://laconcepcion.malaga.eu/es/"
+  },
+  {
+   "dia": "Mar 29",
+   "que": "Museo Picasso (opcional)",
+   "estado": "porhacer",
+   "detalle": "Uno o dos días antes, cuando se sepa quién va.",
+   "url": "https://www.museopicassomalaga.org/"
+  },
+  {
+   "dia": "Mié 30",
+   "que": "Museo Automovilístico y de la Moda",
+   "estado": "porhacer",
+   "detalle": "Se puede comprar en taquilla. Reducida de 6 a 15 años."
+  }
+ ],
+ "nochevieja": {
+  "intro": "Cena en casa sin que nadie cocine, o salir a un hotel. Precios de referencia del año pasado: los de 2026 aún no están publicados. Votad la opción que prefiráis.",
+  "opciones": [
+   {
+    "id": "nv-chef",
+    "nombre": "Chef a domicilio",
+    "precio": "≈ 65–90 € por persona",
+    "desc": "El chef compra, cocina en casa, sirve la mesa y deja la cocina recogida. Bebida aparte. Consultas pendientes a Chef Privado Málaga y Summumm.",
+    "recomendada": true,
+    "contactos": [
+     {
+      "n": "Chef Privado Málaga",
+      "tel": "609 20 63 64"
+     },
+     {
+      "n": "Summumm (también WhatsApp)",
+      "tel": "619 28 70 44"
+     }
+    ]
+   },
+   {
+    "id": "nv-canasta",
+    "nombre": "Catering de La Canasta",
+    "precio": "Por consultar",
+    "desc": "Bandejas de catering de la casa. Hay que preguntar si incluyen camarero para servir y recoger; si no, alguien acaba emplatando y fregando.",
+    "contactos": [
+     {
+      "n": "La Canasta, encargos de catering",
+      "tel": "952 241 748"
+     }
+    ]
+   },
+   {
+    "id": "nv-catalonia",
+    "nombre": "Hotel Catalonia Málaga",
+    "precio": "85 € adulto · 45 € niño hasta 12 (2025)",
+    "desc": "Buffet con marisco, bebida con vino y cava, uvas y cotillón, de 20:00 a 23:00. Da tiempo a tomar las uvas en casa o en la Plaza de la Constitución. Los adolescentes pagan como adultos."
+   },
+   {
+    "id": "nv-eurostars",
+    "nombre": "Hotel Eurostars Málaga",
+    "precio": "150 € adulto · 50 € niño (2025)",
+    "desc": "Cena servida, bodega, uvas, cotillón, copa y DJ hasta las 3:00. Junto a la estación María Zambrano, zona sin encanto."
+   }
+  ],
+  "descartadas": "Descartadas por precio: NH Málaga (275 € adulto) y la azotea del AC Málaga Palacio (290 € adulto)."
+ },
+ "practico": {
+  "casa": {
+   "titulo": "Calle Bolivia, Pedregalejo",
+   "detalle": "Málaga Este, 29017. Número pendiente de confirmar. Es la dirección para el taxi y el punto de encuentro de los tres coches.",
+   "mapa": "Calle Bolivia, 29017 Málaga"
+  },
+  "horarios": {
+   "cols": [
+    "Lu 28",
+    "Ma 29",
+    "Mi 30",
+    "Ju 31",
+    "Vi 1",
+    "Sá 2"
+   ],
+   "filas": [
+    [
+     "Alcazaba",
+     "9–18",
+     "9–18",
+     "9–18",
+     "x:Cerrada",
+     "x:Cerrada",
+     "9–18"
+    ],
+    [
+     "Museo Picasso",
+     "Abierto",
+     "Abierto",
+     "Abierto",
+     "h:10–15",
+     "x:Cerrado",
+     "Abierto"
+    ],
+    [
+     "Carmen Thyssen",
+     "x:Cerrado",
+     "10–20",
+     "10–20",
+     "h:10–15",
+     "x:Cerrado",
+     "10–20"
+    ],
+    [
+     "Museo de Málaga",
+     "x:Cerrado",
+     "Abierto",
+     "Abierto",
+     "x:Cerrado",
+     "x:Cerrado",
+     "Abierto"
+    ],
+    [
+     "Centre Pompidou",
+     "Abierto",
+     "x:Cerrado",
+     "Abierto",
+     "h:9:30–15",
+     "x:Cerrado",
+     "Abierto"
+    ],
+    [
+     "Museo Automovilístico",
+     "10–19",
+     "10–19",
+     "10–19",
+     "h:10–14:30",
+     "x:Cerrado",
+     "10–19"
+    ],
+    [
+     "Luces calle Larios",
+     "3 pases",
+     "3 pases",
+     "3 pases",
+     "h:Sin música",
+     "3 pases",
+     "3 pases"
+    ]
+   ],
+   "nota": "Pases de luces de calle Larios: 18:30, 20:00 y 21:30, unos 8 minutos cada uno. Confirmad horarios unos días antes del viaje."
+  },
+  "tarjetas": [
+   {
+    "zona": "Tres coches",
+    "titulo": "10–15 min al centro",
+    "texto": "Al centro, mejor dos coches y un taxi que tres coches: aparcar es caro y escaso. Parkings de la Alcazaba y de Plaza de la Marina."
+   },
+   {
+    "zona": "Ritmo",
+    "titulo": "Tranquilo, con paradas",
+    "texto": "Cada parada lleva una etiqueta: verde si es llano y naranja si hay cuestas, gentío o un paseo largo. La Alcazaba tiene ascensor desde la calle Guillén Sotelo."
+   },
+   {
+    "zona": "Tiempo",
+    "titulo": "Invierno suave",
+    "texto": "Días templados y noches frescas, con mínimas cerca de 9 °C. Una chaqueta para la noche basta."
+   },
+   {
+    "zona": "Comer",
+    "titulo": "Truco de guía",
+    "texto": "En diciembre la sardina no está en temporada: en el espeto pedid dorada o gambón. Y probad boquerones al limón, conchas finas y ensaladilla malagueña."
+   }
+  ]
+ },
+ "actualizado": "2026-11-25"
+}
