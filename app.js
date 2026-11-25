@@ -72,10 +72,12 @@ function hoyISO(){
 
 /* ── Conexión con la base de datos ──────────────────────────────────────── */
 async function rpc(fn, args){
-  const url = CFG.supabaseUrl.replace(/\/+$/, '') + '/rest/v1/rpc/' + fn;
+  const url = CFG.supabaseUrl.replace(/\/+$/, '').replace(/\/rest\/v1$/, '') + '/rest/v1/rpc/' + fn;
+  const headers = { apikey: CFG.supabaseKey, 'Content-Type': 'application/json' };
+  if (/^eyJ/.test(CFG.supabaseKey)) headers.Authorization = 'Bearer ' + CFG.supabaseKey;
   const r = await fetch(url, {
     method: 'POST',
-    headers: { apikey: CFG.supabaseKey, Authorization: 'Bearer ' + CFG.supabaseKey, 'Content-Type': 'application/json' },
+    headers,
     body: JSON.stringify(args)
   });
   const txt = await r.text();
